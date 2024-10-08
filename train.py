@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load dataset
-df = pd.read_csv('/Users/suvigyasharma/Assignment6_RR/hour.csv')
+df = pd.read_csv('hour.csv')
 
 # Inspect for any missing values
 print(df.isnull().sum())
